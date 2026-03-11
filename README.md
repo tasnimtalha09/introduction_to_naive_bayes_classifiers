@@ -6,7 +6,7 @@ This project explores and compares three Naive Bayes classifiers—**Multinomial
 
 The dataset contained roughly **87% ham** and **13% spam**, showing a natural imbalance. The analysis focused on model performance, overfitting checks, and generalization ability through metrics like **accuracy, precision, recall, F1-score**, and **ROC-AUC**.
 
-![Ham vs. Spam Distribution](Assets/ham_vs_spam.png)
+![Ham vs. Spam Distribution](assets/ham_vs_spam.png)
 ***Figure 01:** Ham vs. Spam Distribution.*
 
 ***A video presentation explaining the project can be found [here](https://shorturl.at/eCKIP).***
@@ -47,7 +47,7 @@ For detecting spam messages (class 1), **Multinomial Naive Bayes** achieved the 
 ### Confusion Matrices
 We generated the three confusion matrices for the models and displayed them side-by-side for an easier comparison.
 
-![Confusion Matrices](Assets/confusion_matrices.png)
+![Confusion Matrices](assets/confusion_matrices.png)
 ***Figure 02:** Confusion Matrices.*
 
 #### Key Insights
@@ -63,7 +63,7 @@ Our goal is to minimize either false positives or false negatives, depending on 
 ### ROC Curves & ROC-AUC Scores
 We also plotted the ROC curves of all three models together for a visual comparison. The ROC-AUC scores are also mentioned in the legend.
 
-![ROC Curves](Assets/roc_curves.png)
+![ROC Curves](assets/roc_curves.png)
 ***Figure 03:** ROC Curves & ROC-AUC Scores.*
 
 #### Key Insights
@@ -107,7 +107,7 @@ Bernoulli Naive Bayes: 97.08% ± 0.38%
 Gaussian Naive Bayes: 87.05% ± 1.00%
 ```
 
-![test](Assets/cross_val.png)
+![test](assets/cross_val.png)
 ***Figure 04:** Cross-Validation Results.*
 
 #### Key Insights
@@ -115,13 +115,13 @@ Among the three, **Multinomial Naive Bayes** performed best, followed closely by
 
 To check their performance across the folds, we can visualize the results using a heatmap.
 
-![Heatmap](Assets/heatmap.png)
+![Heatmap](assets/heatmap.png)
 ***Figure 05:** Cross-Validation Heatmap.*
 
 ### Best Model Selection
 Finally, we want to compare the performance of the three models across **three** specific metrics: Accuracy, F1-Score, and ROC-AUC Score. We will create a bar plot for each metric to visually compare the models.
 
-![Final Model Comparison](Assets/model_comparison.png)
+![Final Model Comparison](assets/model_comparison.png)
 ***Figure 06:** Final Model Comparison.*
 
 #### Key Insights
